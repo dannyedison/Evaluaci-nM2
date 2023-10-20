@@ -1,14 +1,15 @@
 ul{
     color: brown;
     border-width: 2px;
-    border-style: dashed;
+    border-style: double;
     border-color: red;
     width: 400px;
+    cursor: context-menu;
+    cursor: crosshair;
 }
 select{
     position: relative;
     left: 50px;
-    cursor: alias;
 }
 h2{
     color: darkblue;
