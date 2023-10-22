@@ -14,5 +14,40 @@ select{
 h2{
     color: darkblue;
     font: 2em sans-serif;
-    z-index: 1;
+  
 }
+
+.caja1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 150px;
+    z-index: 1;
+    background-color: rgb(173, 71, 71);
+    border-radius: 5px;
+
+  }
+
+  .caja2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-left: 280px;
+    margin-top: 100px;
+    z-index: 2;
+    background-color: rgb(71, 59, 184);
+    border-radius: 5px;
+
+  }
+  .caja3 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    z-index: 0;
+    background-color: rgb(59, 184, 97);
+    border-radius: 5px;
+
+  }
